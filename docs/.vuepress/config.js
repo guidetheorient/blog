@@ -6,10 +6,10 @@ module.exports = {
   description: 'guidetheorient\s blog',
 
   markdown: {
-    lineNumbers: true,
+    // lineNumbers: true,
 
     config: md => {
-      md.use(require('markdown-it-highlightjs'), {style: 'github'})
+      // md.use(require('markdown-it-highlightjs'), {style: 'github'})
     }
   },
   //theme lib  https://docs.craftcms.com/v3/
@@ -23,16 +23,19 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       // { text: 'Pro Git', link: '/pro-git/' },
-      { text: 'Github ', link: 'https://github.com/guidetheorient' },
+      { text: 'Github ', link: 'https://github.com/guidetheorient/blog' },
     ],
 
     sidebar: [
       {
         title: 'Pro Git',
         children: [
-            ['pro-git/', 'Introduction'],
-            'pro-git/a',
-            'pro-git/b',
+          ['pro-git/', 'Introduction'],
+          'pro-git/7.1 Revision Selection',
+          'pro-git/7.3 Stashing and Cleaning',
+          'pro-git/7.5 搜索',
+          'pro-git/7.6 重写历史',
+          'pro-git/7.7 reset checkout',
         ]
       },
       {
