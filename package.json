@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my personal blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidetheorient/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guidetheorient/blog/issues"
+  },
+  "homepage": "https://github.com/guidetheorient/blog#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  },
+  "dependencies": {
+    "markdown-it-highlightjs": "^3.0.0"
+  }
+}

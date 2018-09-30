@@ -1,0 +1,72 @@
+# what b
+
+## 查看不同commit
+
+### git log
+```bash
+# 查看历史commit
+git log
+# 查看历史commit - 生成简短且唯一的commit id值，一行
+git log --abbrev-commit --pretty=oneline
+```
+### git show
+```bash
+# 查看某个commit, id前几位即可
+git show <commit id>
+# 分支名，查询分支最新一次commit
+git show <branch name>
+```
+
+### git reflog
+git reflog只保存在本地
+
+```bash
+# 查看HEAD和分支引用记录
+git reflog
+# 像git log一样显示详细的git reflog, branch name可选
+git log -g [<branch name>]
+# 查看一次HEAD记录
+git show HEAD@{0}
+```
+
+### 祖先引用
+```bash
+# HEAD的父提交
+git show HEAD^
+git show d921970^
+# 当合并时，合并提交有多个父提交，否则只有一个父提交
+# 首个父提交为合并时所在分支
+git show d921970^2
+
+# HEAD的首个祖先提交 === git show HEAD^
+git show HEAD~
+# 首个父提交的首个父提交（git merge时所在的分支为首个）
+git show HEAD~2
+```
+## 提交范围 show commit diff
+
+### 双点号 | 多点 | 三点
+
+```bash
+# 查看前面不包含后面的commit (master为base dev为对比)
+# 以下三条等价
+git log master..dev
+git log dev ^master
+git log dev --not master
+# 远程也可 (本地有远程无)
+git log origin/master..HEAD
+
+# 包含在refA refB，但不包含在refC中的提交
+git log refA refB ^refC
+git log refA refB --not refC
+
+# master与dev之间不同的
+# [--left-right]显示每个不同的commit属于哪个branch，其中 < 代表左边一个，即master
+git log master...dev [--left-right]
+```
+---
+## 暂时用不上的
+```bash
+# 生成当前状态对应的或预期生成的SHA-1值
+git rev-parse <branch name>
+```
