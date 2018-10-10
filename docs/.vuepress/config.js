@@ -20,17 +20,27 @@ module.exports = {
     editLinks: true,
     // editLinkText: '在 GitHub 上编辑此页',
 
-    nav: [
-      { text: 'Home', link: '/' },
+    nav: [{
+        text: 'Home',
+        link: '/'
+      },
       // { text: 'Pro Git', link: '/pro-git/' },
-      { text: 'Github ', link: 'https://github.com/guidetheorient/blog' },
+      {
+        text: 'Github ',
+        link: 'https://github.com/guidetheorient/blog'
+      },
     ],
 
-    sidebar: [
-      {
+    sidebar: [{
         title: 'Pro Git',
         children: [
           ['pro-git/', 'Introduction'],
+          'pro-git/2.2 basic of basic commands',
+          'pro-git/2.3 git log',
+          'pro-git/2.4 撤销',
+          'pro-git/2.5 git remote',
+          'pro-git/2.6 git tag',
+
           'pro-git/7.1 Revision Selection',
           'pro-git/7.3 Stashing and Cleaning',
           'pro-git/7.5 搜索',
@@ -39,18 +49,16 @@ module.exports = {
         ]
       },
       {
-        title: 'Pro Git 2 TEST',
+        title: 'CSS世界',
         children: [
-            ['pro-git2-test/', 'Introduction'],
-            'pro-git2-test/a',
-            'pro-git2-test/b',
+          ['css世界/', 'Introduction'],
+          'css世界/1.1 概述',
         ]
       },
     ]
   },
 
-  plugins: {
-  },
+  plugins: {},
 
   evergreen: true,
 }
