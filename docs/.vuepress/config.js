@@ -40,6 +40,10 @@ module.exports = {
           'pro-git/2.4 撤销',
           'pro-git/2.5 git remote',
           'pro-git/2.6 git tag',
+          
+          'pro-git/3.2-3.4 基本的分支操作.md',
+          'pro-git/3.5 远程分支',
+          'pro-git/3.6 git rebase',
 
           'pro-git/7.1 Revision Selection',
           'pro-git/7.3 Stashing and Cleaning',

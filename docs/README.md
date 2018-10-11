@@ -1,2 +1,2 @@
-# blog
-my personal blog
+本blog是作者的技术类书籍的读书笔记
+
