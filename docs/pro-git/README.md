@@ -32,6 +32,8 @@
 3.6 Rebasing  
 3.7 Summary  
 
+### 4. Git on the Server
+
 ### 7. Git Tools  
 [7.1 Revision Selection](./7.1%20Revision%20Selection.html)  
 7.2 Interactive Staging:dash:  
