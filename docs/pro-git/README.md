@@ -2,13 +2,15 @@
 
 ::: warning TODO
 1. git 快照真实含义是什么？为什么git会更小更快？
-2. git 数据统计工具 
+2. git 数据统计工具  
+3. git patch / git cherry-pick
+4. 如何合并某个分支的某个或一小段commit
 :::
 
 ## 进度
 ::: tip
 ~~删除线~~: 待整理  
-:dash:: 太简单或暂时用不到  
+:dash:: 暂时用不到或太简单  
 :pencil:: 正在进行  
 :moon:: TODO
 :::
@@ -32,7 +34,9 @@
 3.6 Rebasing  
 3.7 Summary  
 
-### 4. Git on the Server
+### 4. Git on the Server:dash:
+### 5. Distributed Git:dash:
+
 
 ### 7. Git Tools  
 [7.1 Revision Selection](./7.1%20Revision%20Selection.html)  
