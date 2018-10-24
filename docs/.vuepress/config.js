@@ -59,6 +59,14 @@ module.exports = {
           'css世界/1.1 概述',
         ]
       },
+      {
+        title: 'JavaScript设计模式与开发实践',
+        children: [
+          ['JavaScript设计模式与开发实践/', 'Introduction'],
+          'JavaScript设计模式与开发实践/1.1 概述',
+          'JavaScript设计模式与开发实践/单例模式',
+        ]
+      },
     ]
   },
 
