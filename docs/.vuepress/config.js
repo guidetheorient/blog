@@ -14,7 +14,7 @@ module.exports = {
   },
   //theme lib  https://docs.craftcms.com/v3/
   themeConfig: {
-    displayAllHeaders: true,
+    displayAllHeaders: false,
     lastUpdated: 'Last Updated',
 
     editLinks: true,
@@ -24,7 +24,6 @@ module.exports = {
         text: 'Home',
         link: '/'
       },
-      // { text: 'Pro Git', link: '/pro-git/' },
       {
         text: 'Github ',
         link: 'https://github.com/guidetheorient/blog'
@@ -37,6 +36,8 @@ module.exports = {
         children: [
           ['blog/', 'Introduction'],
           'blog/2018-12-19 git撤销操作总结',
+          'blog/2018-12-19 Vue使用小结',
+          'blog/2018-12-19 开发小结'
         ]
       },
       {
