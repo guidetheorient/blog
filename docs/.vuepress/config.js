@@ -31,7 +31,15 @@ module.exports = {
       },
     ],
 
-    sidebar: [{
+    sidebar: [
+      {
+        title: 'blog',
+        children: [
+          ['blog/', 'Introduction'],
+          'blog/2018-12-19 git撤销操作总结',
+        ]
+      },
+      {
         title: 'Pro Git',
         children: [
           ['pro-git/', 'Introduction'],

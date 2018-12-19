@@ -45,7 +45,7 @@
 7.4 Signing Your Work:dash:   
 [7.5 Searching](./7.5%20搜索.html)  
 [7.6 Rewriting History](./7.6%20重写历史.html)  
-7.7 Reset Demystified:pencil:  
+[7.7 Reset Demystified](./7.7%20reset%20checkout.html)  
 7.8 Advanced Merging  
 7.9 Rerere  
 7.10 Debugging with Git  
