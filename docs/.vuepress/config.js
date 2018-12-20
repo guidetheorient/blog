@@ -75,6 +75,13 @@ module.exports = {
           ['JavaScript设计模式与开发实践/', 'Introduction'],
           'JavaScript设计模式与开发实践/1.1 概述',
           'JavaScript设计模式与开发实践/单例模式',
+          'JavaScript设计模式与开发实践/发布-订阅模式',
+        ]
+      },
+      {
+        title: '图解HTTP',
+        children: [
+          ['图解HTTP/', 'Introduction'],
         ]
       },
     ]
