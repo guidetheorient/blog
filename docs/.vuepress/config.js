@@ -36,9 +36,22 @@ module.exports = {
         children: [
           ['blog/', 'Introduction'],
           'blog/TODO',
+          'blog/职业生涯',
+          'blog/2018-12-20 学习资源',
           'blog/2018-12-19 git撤销操作总结',
           'blog/2018-12-19 Vue使用小结',
           'blog/2018-12-19 开发小结'
+        ]
+      },
+      {
+        title: 'node学习',
+        children: [
+          ['node学习/', 'Introduction'],
+          'node学习/1. 后端工程师之路',
+          'node学习/2. shell基础操作',
+          'node学习/3. nvm node npm的安装和配置',
+          'node学习/4. nodeschool',
+          'node学习/5. HTTP基础'
         ]
       },
       {
