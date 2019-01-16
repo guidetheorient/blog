@@ -1,4 +1,10 @@
 var hljs = require('highlight.js'); // https://highlightjs.org/
+const genArticleTitle = (path, nameArr) => {
+  path = path.includes('/') ? path : path + '/'
+  return nameArr.map((item, i) => {
+    return `${path}${item}`
+  })
+}
 
 module.exports = {
   base: '/blog/',
@@ -40,7 +46,20 @@ module.exports = {
           'blog/2018-12-20 学习资源',
           'blog/2018-12-19 git撤销操作总结',
           'blog/2018-12-19 Vue使用小结',
-          'blog/2018-12-19 开发小结'
+          'blog/2018-12-19 开发小结',
+        ]
+      },
+      {
+        title: 'ECMAScript 6 入门',
+        children: [
+          ['ECMAScript 6 入门/', 'Introduction'],
+          ...genArticleTitle('ECMAScript 6 入门', [
+            'Iterator 和 for...of 循环',
+            'Generator 函数的语法',
+            'Generator 函数的异步应用',
+            'async 函数',
+            '2019-01-08 async'
+          ])
         ]
       },
       {

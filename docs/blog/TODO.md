@@ -1,5 +1,9 @@
 # TODO
 
+## blog计划
+
+* async await介绍
+
 * Vue 高阶组件
   * [尤雨溪 - 高级 Vue 组件设计](https://www.ximalaya.com/keji/18063052/119592916)  
   * [vue手记- vue高级组件开发](https://www.jianshu.com/p/5b560b4bccb6)  
@@ -16,3 +20,8 @@
 
 * 本地化存储 cookie localStorage
 * audio,video事件
+* Reflect Proxy
+
+## 学习计划
+
+* js高程再看一次

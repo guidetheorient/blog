@@ -21,8 +21,8 @@
 [2.3 Viewing the Commit History](./2.3%20git%20log.html)  
 [2.4 Undoing Things](./2.4%20撤销.html)  
 [2.5 Working with Remotes](./2.5%20git%20remote.html):moon:  
-[2.6 Tagging](./2.6%20git%20tag.html):moon:    
-2.7 Git Aliases:dash:   
+[2.6 Tagging](./2.6%20git%20tag.html):moon:  
+2.7 Git Aliases:dash:  
 
 
 ### 3. Git Branching
