@@ -70,7 +70,10 @@ module.exports = {
           'node学习/2. shell基础操作',
           'node学习/3. nvm node npm的安装和配置',
           'node学习/4. nodeschool',
-          'node学习/5. HTTP基础'
+          'node学习/5. HTTP基础',
+          'node学习/6. http server',
+          'node学习/7. 模块机制',
+          'node学习/8. fs'
         ]
       },
       {
