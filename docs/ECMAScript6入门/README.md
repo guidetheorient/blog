@@ -24,10 +24,10 @@
 1. Proxy  
 1. Reflect  
 1. Promise 对象  
-1. [Iterator 和 for...of 循环](./Iterator%20和%20for...of%20循环.html)  :one:  
-1. [Generator 函数的语法](./Generator%20函数的语法.html)  :one:  
-1. [Generator 函数的异步应用](./Generator%20函数的异步应用.html)  :one:  
-1. [async 函数](./async%20函数.html)  
+1. [Iterator 和 for...of 循环](./iterator.html)  :one:  
+1. [Generator 函数的语法](./generator.html)  :one:  
+1. [Generator 函数的异步应用](./generator-async.html)  :one:  
+1. [async 函数](./async函数.html)  
 1. Class 的基本语法  
 1. Class 的继承  
 1. Decorator  

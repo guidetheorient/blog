@@ -5,6 +5,7 @@ const genArticleTitle = (path, nameArr) => {
     return `${path}${item}`
   })
 }
+// 汉字还是空格造成链接失效
 
 module.exports = {
   base: '/blog/',
@@ -20,7 +21,8 @@ module.exports = {
   },
   //theme lib  https://docs.craftcms.com/v3/
   themeConfig: {
-    displayAllHeaders: false,
+    displayAllHeaders: true,
+    sidebarDepth: 0,
     lastUpdated: 'Last Updated',
 
     editLinks: true,
@@ -38,6 +40,21 @@ module.exports = {
 
     sidebar: [
       {
+        title: '计划',
+        children: [
+          ['计划/', 'Introduction'],
+          '计划/2019年度计划',
+        ]
+      },
+      {
+        title: '资源整理',
+        children: [
+          // ['资源整理/', 'Introduction'],
+          '资源整理/资源整理',
+          '资源整理/Vue相关书签'
+        ]
+      },
+      {
         title: 'blog',
         children: [
           ['blog/', 'Introduction'],
@@ -52,13 +69,22 @@ module.exports = {
       {
         title: 'ECMAScript 6 入门',
         children: [
-          ['ECMAScript 6 入门/', 'Introduction'],
-          ...genArticleTitle('ECMAScript 6 入门', [
-            'Iterator 和 for...of 循环',
-            'Generator 函数的语法',
-            'Generator 函数的异步应用',
-            'async 函数',
+          ['ECMAScript6入门/', 'Introduction'],
+          ...genArticleTitle('ECMAScript6入门', [
+            'iterator',
+            'generator',
+            'generator-async',
+            'async函数',
             '2019-01-08 async'
+          ])
+        ]
+      },
+      {
+        title: 'JavaScript高级程序设计',
+        children: [
+          ['JavaScript高级程序设计/', 'Introduction'],
+          ...genArticleTitle('JavaScript高级程序设计', [
+            '1. JavaScript简介',
           ])
         ]
       },

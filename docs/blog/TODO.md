@@ -21,7 +21,20 @@
 * 本地化存储 cookie localStorage
 * audio,video事件
 * Reflect Proxy
+* 图片上传
+  * [原来浏览器原生支持JS Base64编码解码](https://www.zhangxinxu.com/wordpress/2018/08/js-base64-atob-btoa-encode-decode/)
+  * [移动端图片上传旋转、压缩的解决方案](https://zhuanlan.zhihu.com/p/27627436)
+  * [从0开始做一个的Vue图片/ 文件选择(上传)组件[基础向]](https://segmentfault.com/a/1190000008503338)
+  * [HTML5 FormData 方法介绍以及实现文件上传](https://blog.csdn.net/u014607184/article/details/52372551)
+  * 移动端img compressor.js
+  * formdata
+
+* Vue插件编写
+
 
 ## 学习计划
 
 * js高程再看一次
+
+## 单点总结
+Vue props实现双向绑定
