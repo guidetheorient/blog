@@ -44,6 +44,8 @@ module.exports = {
         children: [
           ['计划/', 'Introduction'],
           '计划/2019年度计划',
+          '计划/第8周',
+          '计划/原则',
         ]
       },
       {
@@ -64,6 +66,7 @@ module.exports = {
           'blog/2018-12-19 git撤销操作总结',
           'blog/2018-12-19 Vue使用小结',
           'blog/2018-12-19 开发小结',
+          'blog/2019-02-22 vue-cli2升级到webpack4.x',
         ]
       },
       {
