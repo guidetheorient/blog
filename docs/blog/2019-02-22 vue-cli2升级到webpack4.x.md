@@ -223,7 +223,7 @@ webpack.prod.conf.js
 
 ```
 
-### 问题
+## 问题
 
 遇到的问题基本都能在webpack或者触发问题的库的issues中找到解决方案
 
@@ -231,7 +231,7 @@ webpack.prod.conf.js
 解决：webpack从4.29.x降级到4.28.4
 ![](./images/2019-02-20-10-39-36.png)
 
-2. [HtmlWebpackPlugin引用的toposort库抛错](https://github.com/jantimon/html-webpack-plugin/issues/870)
+2. [HtmlWebpackPlugin引用的toposort库抛错](https://github.com/jantimon/html-webpack-plugin/issues/870)  
 解决：HtmlWebpackPlugin的配置中修改chunksSortMode: 'none'
 ![](./images/2019-02-20-11-30-59.png)
 

@@ -12,12 +12,8 @@ module.exports = {
   title: 'guidetheorient\'s blog',
   description: 'guidetheorient\s blog',
 
-  markdown: {
-    // lineNumbers: true,
-
-    config: md => {
-      // md.use(require('markdown-it-highlightjs'), {style: 'github'})
-    }
+  extendMarkdown(md) {
+    // md.use(require('markdown-it-highlightjs'), {style: 'github'})
   },
   //theme lib  https://docs.craftcms.com/v3/
   themeConfig: {
@@ -44,8 +40,9 @@ module.exports = {
         children: [
           ['计划/', 'Introduction'],
           '计划/2019年度计划',
-          '计划/第8周',
           '计划/原则',
+          '计划/第8周',
+          '计划/第9周'
         ]
       },
       {
@@ -67,6 +64,7 @@ module.exports = {
           'blog/2018-12-19 Vue使用小结',
           'blog/2018-12-19 开发小结',
           'blog/2019-02-22 vue-cli2升级到webpack4.x',
+          'blog/2019-02-22 webpack splitchunks试验'
         ]
       },
       {
