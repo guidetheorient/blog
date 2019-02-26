@@ -1,6 +1,15 @@
-# TODO
+# 博客选题
 
-## blog计划
+* big-screen大屏开发总结
+
+* eslint, babel, prettier, vscode中的一堆配置是如何协同工作的？
+情形1：保存时按eslint规范格式化
+情形2：提交时按eslint规范格式化
+情形3：使用prettier
+
+* babel到底编译了哪些语法和api，哪些不是默认编译的？
+
+* 正则表达式的使用
 
 * async await介绍
 
@@ -31,10 +40,13 @@
 
 * Vue插件编写
 
+* 跨域
 
-## 学习计划
-
-* js高程再看一次
-
-## 单点总结
+## 其他
 Vue props实现双向绑定
+
+## 博客风格指南
+
+toc
+博客还需改善的写在开头的:::tip TODO中:::
+博客结尾的TODO列出写这边博客冒出的新问题

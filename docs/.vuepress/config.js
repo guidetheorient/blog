@@ -57,14 +57,15 @@ module.exports = {
         title: 'blog',
         children: [
           ['blog/', 'Introduction'],
-          'blog/TODO',
+          'blog/blog选题',
           'blog/职业生涯',
           'blog/2018-12-20 学习资源',
           'blog/2018-12-19 git撤销操作总结',
           'blog/2018-12-19 Vue使用小结',
           'blog/2018-12-19 开发小结',
           'blog/2019-02-22 vue-cli2升级到webpack4.x',
-          'blog/2019-02-22 webpack splitchunks试验'
+          'blog/2019-02-25 webpack splitchunks试验',
+          'blog/2019-02-26 post请求的content-type'
         ]
       },
       {
