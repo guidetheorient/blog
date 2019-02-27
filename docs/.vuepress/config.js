@@ -38,19 +38,13 @@ module.exports = {
       {
         title: '计划',
         children: [
-          ['计划/', 'Introduction'],
+          // ['计划/', 'Introduction'],
+          '计划/收集箱',
           '计划/2019年度计划',
           '计划/原则',
+          '计划/100-imitation-of-websites',
           '计划/第8周',
-          '计划/第9周'
-        ]
-      },
-      {
-        title: '资源整理',
-        children: [
-          // ['资源整理/', 'Introduction'],
-          '资源整理/资源整理',
-          '资源整理/Vue相关书签'
+          '计划/第9周',
         ]
       },
       {
@@ -65,7 +59,17 @@ module.exports = {
           'blog/2018-12-19 开发小结',
           'blog/2019-02-22 vue-cli2升级到webpack4.x',
           'blog/2019-02-25 webpack splitchunks试验',
-          'blog/2019-02-26 post请求的content-type'
+          'blog/2019-02-26 post请求的content-type',
+          'blog/2019-02-27 vue插件编写小结',
+          'blog/2019-02-27 了解FLIP动画'
+        ]
+      },
+      {
+        title: '资源整理',
+        children: [
+          // ['资源整理/', 'Introduction'],
+          '资源整理/资源整理',
+          '资源整理/Vue相关书签'
         ]
       },
       {

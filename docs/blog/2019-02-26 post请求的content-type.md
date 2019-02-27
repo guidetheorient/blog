@@ -2,7 +2,7 @@
 
 > 参考  
 1.[四种常见的 POST 提交数据方式 - Jerry Qu](https://imququ.com/post/four-ways-to-post-data-in-http.html) :running:再看一遍？  
-2.[Form content types](https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4)
+2.[Form content types](https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4)  
 3.[POST - MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)  
 4.[axios 中文说明](https://www.kancloud.cn/yunye/axios/234845)  
 5.[XMLHttpRequest.send() - MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send)  
@@ -97,7 +97,7 @@ xhr.send('alarmId=123928')
 默认content-type: 'application/json'，data也会自动转换为json字符串
 
 ```js
-// 默认，只声明content-type为x-www-form-urlencoded是不起作用的，要同时将data处理成键值对字符串
+// 默认，只声明content-type为x-www-form-urlencoded是不起作用的，要同时将data处理成键值对字符串(如果不转换，相当于axios帮你stringify，然后一个string只能当form data的key，然后value为空，反正就是双拼两不像)
 axios({
   method: 'post',
   url: '/alarm/get.do',
