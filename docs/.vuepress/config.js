@@ -61,7 +61,7 @@ module.exports = {
           'blog/2019-02-25 webpack splitchunks试验',
           'blog/2019-02-26 post请求的content-type',
           'blog/2019-02-27 vue插件编写小结',
-          'blog/2019-02-27 了解FLIP动画'
+          'blog/2019-02-28 了解FLIP动画'
         ]
       },
       {
