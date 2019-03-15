@@ -2,7 +2,24 @@
 
 ## 基础
 
+* 编辑器eslint配置，配合husky, lint-staged使用ESlint
+* 公司eslint规范 + vue书写规范 ？ 用不用prettier？？
+
+
+* 横屏开发，图表（echarts）横屏
+  * 页面
+    https://juejin.im/post/5be2403df265da616b102e23#heading-5
+    https://zhuanlan.zhihu.com/p/30577906
+    https://www.cnblogs.com/cy3664983/p/9101542.html
+    https://aotu.io/notes/2017/01/31/detect-orientation/?o2src=juejin&o2layout=compat
+  * echarts
+    https://github.com/apache/incubator-echarts/issues/7381
+    https://github.com/apache/incubator-echarts/issues/5538
+
 * FLIP动画
+* requestAnimationFrame
+* 动画
+  * [三角函数在前端动画中的应用](https://w3ctrain.com/2018/08/20/trigonometry-you-must-know/)
 * 正则表达式的使用
 * 本地化存储 cookie localStorage
 * audio,video事件
