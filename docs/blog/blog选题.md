@@ -2,9 +2,12 @@
 
 ## 基础
 
+* requestAnimationFrame
+* vim快捷键ctrl + r , u 撤销， dd, pp
 * 编辑器eslint配置，配合husky, lint-staged使用ESlint
 * 公司eslint规范 + vue书写规范 ？ 用不用prettier？？
 
+* css缩写background（多张图片）, font, transform连写属性translate(0, 0, 0)
 
 * 横屏开发，图表（echarts）横屏
   * 页面
@@ -17,7 +20,6 @@
     https://github.com/apache/incubator-echarts/issues/5538
 
 * FLIP动画
-* requestAnimationFrame
 * 动画
   * [三角函数在前端动画中的应用](https://w3ctrain.com/2018/08/20/trigonometry-you-must-know/)
 * 正则表达式的使用

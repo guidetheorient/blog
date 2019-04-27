@@ -45,6 +45,7 @@ module.exports = {
           '计划/100-imitation-of-websites',
           '计划/第8周',
           '计划/第9周',
+          '计划/2019年周计划汇总'
         ]
       },
       {
@@ -62,7 +63,11 @@ module.exports = {
           'blog/2019-02-26 post请求的content-type',
           'blog/2019-02-27 vue插件编写小结',
           'blog/2019-02-28 了解FLIP动画',
-          'blog/2019-03-06 eslint配置指南'
+          'blog/2019-03-06 eslint配置指南',
+          'blog/2019-04-07 requestAnimationFrame',
+          'blog/2019-04-15 记一次vue性能优化',
+          'blog/你不知道的Chrome调试技巧',
+          'blog/如何使用Canvas制作出炫酷的网页背景特效',
         ]
       },
       {
@@ -128,6 +133,15 @@ module.exports = {
           'pro-git/7.5 搜索',
           'pro-git/7.6 重写历史',
           'pro-git/7.7 reset checkout',
+        ]
+      },
+      {
+        title: 'Vue.js源码全方位深入解析',
+        children: [
+          ['Vue.js源码全方位深入解析/', 'Introduction'],
+          ...genArticleTitle('Vue.js源码全方位深入解析', [
+            'abc',
+          ])
         ]
       },
       {

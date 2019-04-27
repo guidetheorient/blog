@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-npm run docb
+yarn b
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
